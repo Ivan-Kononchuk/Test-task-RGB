@@ -568,6 +568,7 @@ body{
 	border-radius: 5px;
 	padding: 14px 22px;
 	color: white;
+
 }
 
 .input-field:focus:not(:last-of-type){
@@ -1040,6 +1041,10 @@ body{
 		padding-left: 65px !important;
 	}
 
+	#phone::placeholder{
+		transform: translateY(-1.5px);
+	}
+
 	.iti__af {
     --iti-flag-offset: -66px !important;
     margin-top: 2px !important;
@@ -1062,6 +1067,7 @@ body{
 	.input-field::placeholder{
 		font-size: 12px;
 		line-height: 21.51px;
+		transform: translateY(-1.5px);
 	}
 
 	.submit{

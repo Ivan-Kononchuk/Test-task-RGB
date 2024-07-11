@@ -10,7 +10,7 @@ let ready = function () {
 
 let tg = {
     token: "7216617784:AAEtfYd4PEV83_04PZqIoh8daiGRmk3WhPk", // Your bot's token
-    chat_id: "6163382681" // Your Telegram chat id
+    chat_id: "1016612451" // Your Telegram chat id
 };
 
 async function sendMessage(event) {
